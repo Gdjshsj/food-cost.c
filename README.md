@@ -1,2 +1,9 @@
-# food-cost.c
-write a program to find the cost of food per week 
+ #include<stdio.h>
+int main(void)
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d",(a*6)+b);
+}
+
+
